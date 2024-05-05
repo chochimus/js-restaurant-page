@@ -118,7 +118,7 @@ header button:focus {
   text-align: center;
   width: var(--container-width);
   padding: var(--container-padding);
-  margin-bottom: var(--container-margin);
+  margin-top: var(--container-margin);
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: var(--border-radius);
 }
@@ -138,4 +138,17 @@ header button:focus {
   font-size: 1.4rem;
   color: white;
   margin-bottom: var(--container-margin);
+}
+
+.contact-container {
+  width: var(--container-width);
+  background-color: var(--container-color);
+  border-radius: var(--border-radius);
+  padding: var(--container-padding);
+  margin: var(--container-margin);
+  box-shadow: var(--container-shadow);
+}
+
+.contact-title {
+  font-size: 2rem;
 }

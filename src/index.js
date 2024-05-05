@@ -1,5 +1,6 @@
 import { loadHtml as loadHome } from "./loadHome";
 import { loadHtml as loadMenu } from "./loadMenu";
+import { loadHtml as loadContact } from "./loadContact";
 import './styles.css';
 
 loadHome();
@@ -14,6 +15,7 @@ const handleClick = (e) => {
       loadMenu();
       break;
     case 'Contact':
+      loadContact();
       break;
   }
 }
